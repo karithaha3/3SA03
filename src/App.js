@@ -57,7 +57,7 @@ class App extends React.Component {
           ))
 
         }
-        <div>Attemp {this.state.attempt}</div>
+        <div>Attemp  {this.state.attempt}</div>
         {
           this.state.completed && <h4>completed</h4>
         }
