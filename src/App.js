@@ -24,7 +24,7 @@ class App extends React.Component {
   activationHandler = (c) => {
     let guess = [...this.state.guess, c]
     this.setState({guess})
-    if(guess.length == this.state.chars.length){
+    if(guess.length ==  this.state.chars.length){
     if(guess.join('').toString() == this.state.word){
     this.setState({guess: [], completed: true})
     }else{
